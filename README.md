@@ -4,7 +4,9 @@ fragment shader converts to greyscale then applies 1bit or 2bit dithering using 
 
 inspired by Lucas Pope's Return of the Obra Dinn
 
-helpful reference https://en.wikipedia.org/wiki/Ordered_dithering
+helpful references
+https://en.wikipedia.org/wiki/Ordered_dithering
+http://alex-charlton.com/posts/Dithering_on_the_GPU/
 
 ![1bit-macintosh](gifs/1bit-macintosh.gif)
 ![1bit-ibm8503](gifs/1bit-ibm8503.gif)
