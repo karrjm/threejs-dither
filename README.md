@@ -7,6 +7,6 @@ inspired by Lucas Pope's Return of the Obra Dinn
 helpful reference https://en.wikipedia.org/wiki/Ordered_dithering
 
 ![Alt Text]()
-![Alt Text]()
+![1bit-commodore1084](gifs/1bit-commodore1084.gif)
 ![Alt Text]()
 ![Alt Text]()
