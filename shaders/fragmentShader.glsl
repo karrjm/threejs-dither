@@ -21,31 +21,34 @@ void main() {
 
   // 1bit threshold
   if(grey > dither) {
-    // gl_FragColor = vec4(1.0f, 1.0f, 1.0f, 1.0f); // white
+    // gl_FragColor = vec4(1.0, 1.0, 1.0, 1.0); // white
 
-    gl_FragColor = vec4(0.9f, 1.0f, 1.0f, 1.0f); // obra dinn macintosh
-    // gl_FragColor = vec4(0.53f, 0.84f, 0.87f, 1.0f); // obra dinn commodore 1084
-    // gl_FragColor = vec4(0.92f, 0.9f, 0.81f, 1.0f); // obra dinn ibm 8503
+    gl_FragColor = vec4(0.9, 1.0, 1.0, 1.0); // obra dinn macintosh
+    // gl_FragColor = vec4(0.53, 0.84, 0.87, 1.0); // obra dinn commodore 1084
+    // gl_FragColor = vec4(0.92, 0.9, 0.81, 1.0); // obra dinn ibm 8503
+    // gl_FragColor = vec4(0.89, 0.27, 0.96, 1);
 
   } else {
-    // gl_FragColor = vec4(0.0f, 0.0f, 0.0f, 1.0f); // black
+    // gl_FragColor = vec4(0.0, 0.0, 0.0, 1.0); // black
 
-    gl_FragColor = vec4(0.2f, 0.2f, 0.1f, 1.0f); // obra dinn macintosh
-    // gl_FragColor = vec4(0.25f, 0.19f, 0.56f, 1.0f); // obra dinn commodore 1084
-    // gl_FragColor = vec4(0.18f, 0.19f, 0.22f, 1.0f); // obra dinn ibm 8503
+    gl_FragColor = vec4(0.2, 0.2, 0.1, 1.0); // obra dinn macintosh
+    // gl_FragColor = vec4(0.25, 0.19, 0.56, 1.0); // obra dinn commodore 1084
+    // gl_FragColor = vec4(0.18, 0.19, 0.22, 1.0); // obra dinn ibm 8503
+    // gl_FragColor = vec4(0.77, 0.18, 0.11, 1);
+
   }
 
   //  // 2bit threshold
-  // float shine = dither + 0.14; // 2nd highlight threshold
-  // float highlight = dither + 0.22; // main highlight threshold
+  // float shine = dither + 0.2; // 2nd highlight threshold
+  // float highlight = dither + 0.5; // main highlight threshold
 
   // if(grey > highlight) {
-  //   gl_FragColor = vec4(0.79f, 0.96f, 0.2f, 1.0f);
+  //   gl_FragColor = vec4(0.99, 0.99, 0.91, 1.0);
   // } else if(grey > shine) {
-  //   gl_FragColor = vec4(0.45f, 0.69f, 0.2f, 1.0f);
+  //   gl_FragColor = vec4(0.05, 0.31, 1.0, 1.0);
   // } else if(grey > dither) {
-  //   gl_FragColor = vec4(0.36f, 0.31f, 0.64f, 1.0f);
-  // } else {
-  //   gl_FragColor = vec4(0.34f, 0.11f, 0.09f, 1.0f);
-  // }
+  //   gl_FragColor = vec4(0.15, 0.01, 0.76, 1.0);
+  // }// } else {
+  // //   gl_FragColor = vec4(0.0, 0.0, 0.0, 1.0);
+  // // }
 }
